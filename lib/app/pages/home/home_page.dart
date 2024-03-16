@@ -91,7 +91,7 @@ class _Logo extends StatelessWidget {
                 hoverColor: theme.colorScheme.surfaceTint,
                 onPressed: () async {
                   await launchUrl(
-                    Uri.parse('https://github.com/davidmigloz/pixels2flutter'),
+                    Uri.parse('https://github.com/Kshithija-liyanage/CodeForge'),
                   );
                 },
                 icon: Opacity(
@@ -154,12 +154,12 @@ class _Footer extends StatelessWidget {
                       style: theme.textTheme.bodyMedium,
                     ),
                     Link(
-                      uri: Uri.parse('https://www.linkedin.com/in/davidmigloz'),
+                      uri: Uri.parse('https://github.com/Kshithija-liyanage/CodeForge'),
                       target: LinkTarget.blank,
                       builder: (final context, final followLink) => InkWell(
                         onTap: followLink,
                         child: Text(
-                          'David Miguel',
+                          'Code Forge',
                           style: theme.textTheme.bodyMedium?.copyWith(
                             decoration: TextDecoration.underline,
                           ),
