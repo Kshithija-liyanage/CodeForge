@@ -66,7 +66,6 @@ class _Body extends StatelessWidget {
           _Logo(),
           HomePageAppSection(),
           HomePageHowItWorksSection(),
-          HomePageExamplesSection(),
           _Footer(),
         ],
       ),
