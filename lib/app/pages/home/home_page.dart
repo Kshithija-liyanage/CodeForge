@@ -8,8 +8,6 @@ import '../../assets/assets.gen.dart';
 import '../../injection/injection.dart';
 import 'bloc/home_page_cubit.dart';
 import 'home_page_app.dart';
-import 'home_page_examples.dart';
-import 'home_page_faqs.dart';
 import 'home_page_how_it_works.dart';
 
 class HomePage extends StatelessWidget {
@@ -69,7 +67,6 @@ class _Body extends StatelessWidget {
           HomePageAppSection(),
           HomePageHowItWorksSection(),
           HomePageExamplesSection(),
-          HomePageFAQsSection(),
           _Footer(),
         ],
       ),
